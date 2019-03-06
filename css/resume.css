@@ -199,12 +199,25 @@ a:hover, a:focus, a:active {
   border-radius: 4vh;
 }
 
-.gr1 p{
-  background: green;
+.gr1 {
+  background: rgba(4, 116, 4, 0.699);
 }
 
 
 
-.gr2 p{
-  background: yellow;
+.gr2 {
+  background: #e6ee09a4;
+}
+
+.card-header{
+  color:black;
+}
+
+.card-text  {
+  color:rgba(0, 0, 0, 0.76);
+}
+
+.room{
+  color:rgba(11, 9, 139, 0.856);
+  text-decoration: underline;
 }
