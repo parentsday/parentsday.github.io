@@ -13,7 +13,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 22rem;
   }
 }
 
@@ -30,6 +30,9 @@ h6 {
 }
 
 h1 {
+  
+  
+  
   font-size: 6rem;
   line-height: 5.5rem;
 }
@@ -106,7 +109,7 @@ p.lead {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 22rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -221,3 +224,15 @@ a:hover, a:focus, a:active {
   color:rgba(11, 9, 139, 0.856);
   text-decoration: underline;
 }
+
+h2.room {
+  font-size: 2.5rem;
+}
+
+.resume-section p{
+  font-size: 1.3rem;
+}
+
+/* .resume-section>.row:first-child>.row:first-child{
+display:table;
+} */
