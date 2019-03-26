@@ -12,8 +12,8 @@
 
   <!-- Bootstrap core CSS -->
   <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
@@ -166,7 +166,8 @@
 
         <div class="col-md-12 ">
           <p>
-            Enjoy a presentation of the studyorganisation Cognac and the PC. For more information visit <a href="svcogn.nl/CognAC">svcognac.nl</a>
+            Enjoy a presentation of the studyorganisation Cognac and the PC. For more information visit <a
+              href="svcogn.nl/CognAC">svcognac.nl</a>
           </p>
         </div>
       </div>
@@ -178,19 +179,24 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="general">
       <div class="w-100 row">
-        <div class="row">
-          <div class="col-md-10">
-            <h2 class="mb-5">General AI Lecture about </h2>
-          </div>
-          <div class="col-md-2">
-            <h2 class="mb-5 room">Cantina </h2>
-          </div>
+        <div class="col-md-12">
+          <h2 class="mb-5">Programming: talking to computers </h2>
+        </div>
+        <div class="col-md-8">
+          <h3 class="mb-5">Frank Grootjes </h3>
+        </div>
+        <div class="col-md-4">
+          <h2 class="mb-5 room">HG 0.307 </h2>
         </div>
 
         <div class="col-md-12 ">
           <p>
-            A Lecture from Frank Grotje about the Study and challenges of AI in the future.
-          </p>
+            As a human, talking seems to be an effortless task. When asking someone to help us we do not even think
+            about how to
+            formulate such a question. And usually it works out fine.
+            Talking to computers seems to be more troublesome. Why is that? How can we improve this communication? Or
+            are computers
+            just too stupid? </p>
         </div>
       </div>
     </section>
@@ -218,9 +224,19 @@
                 <h5 class="card-title room">HG 00.65</h5>
               </div>
               <p class="card-text">Hello everybody and welcome again to the Parents day 2019.
+                <br>
+                <b>Brains! First:</b>
                 Did you always want to see not only what studying is like for your child,
                 but also what they do after their lectures? Come play
-                beerpong (with water ;)) with CognAC's drinks committee; the DAtA!</p>
+                beerpong (with water ;)) with CognAC's drinks committee; the DAtA!
+                <br><br>
+                <b>Computers! First:</b>
+                The activities committee will organise a quiz, where hopefully you can prove to us how much you know
+                about AI and
+                CognAC, the study association! The quiz will be online, so bring your phones.
+                <br>
+                <i>We will swap halfway!</i>
+              </p>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -253,13 +269,28 @@
                 assignments. This way you have plenty of time left to enjoy the fun programming assignment. The
                 assignments can be
                 found below. Good luck!</p>
-              <button type="button" class="btn btn-primary mr-3 mb-3" data-toggle="modal" data-target="#exampleModal">
-                View Assignment
-              </button>
-              <a href="docs/questionsPC.pdf" class="btn btn-primary mr-3 mb-3">Download Assignment
-              </a>
-              <a href="https://www.codeavengers.com/python/100#1.1 " class="btn btn-primary">Assignment
-                Website</a>
+              <div class="row col-md-12">
+                <div class="col-md-11">
+                  <h3>Math & Logic</h3>
+                </div>
+                <button type="button" class="btn btn-primary mr-3 mb-3 col-md-5" data-toggle="modal"
+                  data-target="#exampleModal">
+                  View Assignment
+                </button>
+                <button type="button" class="btn btn-primary mr-3 mb-3 col-md-5" data-toggle="modal"
+                  data-target="#answersModal">
+                  View Answers
+                </button>
+                <a href="docs/questionsPC.pdf" class="btn btn-primary mr-3 mb-3 col-md-5">Download Assignment
+                </a>
+                <a href="docs/questionsPC.pdf" class="btn btn-primary mr-3 mb-3 col-md-5">Download Answers
+                </a>
+                <div class="col-md-11">
+                  <h3>Programming</h3>
+                </div>
+                <a href="https://www.codeavengers.com/python/100#1.1 " class="btn btn-primary">Visit Assignment
+                  Website</a>
+              </div>
             </div>
           </div>
 
@@ -279,6 +310,31 @@
                 <object data="docs/questionsPC.pdf" type="application/pdf" width="100%" height="800px">
                   <p>It appears you don't have a PDF plugin for this browser.
                     No biggie... you can <a href="docs/questionsPC.pdf">click here to
+                      download the PDF file.</a></p>
+                </object>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Answers -->
+        <div class="modal fade" id="answersModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel2">Assignment Answers Parentsday</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <object data="docs/answersPC.pdf" type="application/pdf" width="100%" height="800px">
+                  <p>It appears you don't have a PDF plugin for this browser.
+                    No biggie... you can <a href="docs/answersPC.pdf">click here to
                       download the PDF file.</a></p>
                 </object>
               </div>
@@ -336,8 +392,29 @@
                 <h5 class="card-title room">HG 00.65</h5>
               </div>
               <p class="card-text">
-                Did you alwats wanted to know about mind control(ing something)?
-                Listen to one of our professors about the tricks and methods used to make that future come true.
+                <b> Bridging artificial intelligence and cognitive neuroscience: from reading images to reading brains.
+                </b> <br><br>
+                In the last couple of years quite some progress has been made within artificial intelligence so that
+                nowadays it is
+                possible to learn complex patterns from large amounts of data. For instance, making use of what is
+                called “deep
+                learning”, we are able to recognize objects and faces from 2D images at levels that even surpass human
+                performance.
+                These type of models are largely inspired by how the brain works, and a fruitful way to improve these
+                models even
+                further is to transfer knowledge about the brain to the artificial counterpart. In a similar vein, we
+                can use these
+                models to study the brain and test specific hypotheses, providing us with new insights about the
+                workings of the brain.
+                Thus, with this circular process we open up new insights not only in artificial intelligence but also
+                cognitive
+                neuroscience. Additionally, many applications emerge from natural language processing to self-driving
+                cars, to exciting
+                areas like automated medical diagnosis to brain reading and brain-computer interfaces. In this talk I
+                will show how
+                artificial intelligence and cognitive neuroscience are so intertwined and I will provide a short
+                overview of the
+                state-of-the-art in several of these exciting applications.
               </p>
             </div>
           </div>
@@ -368,8 +445,29 @@
                 <h5 class="card-title room">HG 00.65</h5>
               </div>
               <p class="card-text">
-                Did you alwats wanted to know about mind control(ing something)?
-                Listen to one of our professors about the tricks and methods used to make that future come true.
+                <b> Bridging artificial intelligence and cognitive neuroscience: from reading images to reading brains.
+                </b> <br><br>
+                In the last couple of years quite some progress has been made within artificial intelligence so that
+                nowadays it is
+                possible to learn complex patterns from large amounts of data. For instance, making use of what is
+                called “deep
+                learning”, we are able to recognize objects and faces from 2D images at levels that even surpass human
+                performance.
+                These type of models are largely inspired by how the brain works, and a fruitful way to improve these
+                models even
+                further is to transfer knowledge about the brain to the artificial counterpart. In a similar vein, we
+                can use these
+                models to study the brain and test specific hypotheses, providing us with new insights about the
+                workings of the brain.
+                Thus, with this circular process we open up new insights not only in artificial intelligence but also
+                cognitive
+                neuroscience. Additionally, many applications emerge from natural language processing to self-driving
+                cars, to exciting
+                areas like automated medical diagnosis to brain reading and brain-computer interfaces. In this talk I
+                will show how
+                artificial intelligence and cognitive neuroscience are so intertwined and I will provide a short
+                overview of the
+                state-of-the-art in several of these exciting applications.
               </p>
             </div>
           </div>
@@ -430,13 +528,28 @@
                 assignments. This way you have plenty of time left to enjoy the fun programming assignment. The
                 assignments can be
                 found below. Good luck!</p>
-              <button type="button" class="btn btn-primary mr-3 mb-3" data-toggle="modal" data-target="#exampleModal">
-                View Assignment
-              </button>
-              <a href="docs/questionsPC.pdf" class="btn btn-primary mr-3 mb-3">Download Assignment
-              </a>
-              <a href="https://www.codeavengers.com/python/100#1.1 " class="btn btn-primary">Assignment
-                Website</a>
+              <div class="row col-md-12">
+                <div class="col-md-11">
+                  <h3>Math & Logic</h3>
+                </div>
+                <button type="button" class="btn btn-primary mr-3 mb-3 col-md-5" data-toggle="modal"
+                  data-target="#exampleModal">
+                  View Assignment
+                </button>
+                <button type="button" class="btn btn-primary mr-3 mb-3 col-md-5" data-toggle="modal"
+                  data-target="#answersModal">
+                  View Answers
+                </button>
+                <a href="docs/questionsPC.pdf" class="btn btn-primary mr-3 mb-3 col-md-5">Download Assignment
+                </a>
+                <a href="docs/questionsPC.pdf" class="btn btn-primary mr-3 mb-3 col-md-5">Download Answers
+                </a>
+                <div class="col-md-11">
+                  <h3>Programming</h3>
+                </div>
+                <a href="https://www.codeavengers.com/python/100#1.1 " class="btn btn-primary">Visit Assignment
+                  Website</a>
+              </div>
             </div>
           </div>
         </div>
@@ -456,10 +569,18 @@
                 <h5 class="card-title room">HG 00.65</h5>
               </div>
               <p class="card-text">Hello everybody and welcome again to the Parents day 2019.
+                <br>
+                <b>Robots! First:</b>
                 Did you always want to see not only what studying is like for your child,
                 but also what they do after their lectures? Come play
-                beerpong (with water ;)) with CognAC's drinks committee; the DAtA!</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                beerpong (with water ;)) with CognAC's drinks committee; the DAtA!
+                <br><br>
+                <b>Boats! First:</b>
+                The activities committee will organise a quiz, where hopefully you can prove to us how much you know
+                about AI and
+                CognAC, the study association! The quiz will be online, so bring your phones.
+                <br>
+                <i>We will swap halfway!</i>
             </div>
           </div>
         </div>
@@ -469,18 +590,28 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="rl">
       <div class="w-100 row">
         <div class="row">
-          <div class="col-md-10">
+          <div class="col-md-12">
             <h2 class="mb-5">Learn about our machine counterparts</h2>
           </div>
-          <div class="col-md-2">
-            <h2 class="mb-5 room">HG 00.12</h2>
+          <div class="col-md-8">
+            <h3 class="mb-5">Luc Selen </h3>
+          </div>
+          <div class="col-md-4">
+            <h2 class="mb-5 room">HG 0.307 </h2>
           </div>
         </div>
 
         <div class="col-md-12 ">
           <p>
-            The future of robots and machines with AI, explained by Luc. Be impressed by a world only
-            limited by your imagination.... and some engineering challenges.
+            Do you actually know what a robot is? Is your refrigerator a robot? And what about your washing machine? We
+            use robots
+            in our daily life these days even though you might not realise it. But this is not the main application of
+            robotics.
+            They’re increasingly more used in healthcare, factories and entertainment. They are presented as faultless
+            creatures in
+            the media but this is definitely not true. The basic human tasks are still very difficult for robots. Such
+            things as
+            opening a door, walking a staircase, picking up a cup and even just walking.
           </p>
         </div>
       </div>
@@ -499,8 +630,9 @@
 
         <div class="col-md-12 ">
           <p>
-            The future of robots and machines with AI, explained by Luc. Be impressed by a world only
-            limited by your imagination.... and some engineering challenges.
+            It has been a pleasure having you, if you do not want to leave us yet - join for the borrel!
+            We look forward to hearing your feedback - please take the time and tell us your opion
+            <a href="feedback!@!!"> here</a>.
           </p>
         </div>
       </div>
@@ -529,11 +661,14 @@
 
 
   <!-- Bootstrap core JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
   <!--     
