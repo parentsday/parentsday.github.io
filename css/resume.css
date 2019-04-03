@@ -203,13 +203,14 @@ a:hover, a:focus, a:active {
 }
 
 .gr1 {
-  background: rgba(4, 116, 4, 0.699);
+  background-color: rgba(4, 116, 4, 0.699);
 }
 
 
 
 .gr2 {
-  background: #e6ee09a4;
+  background-color:rgba(218, 203, 6, 0.678);
+  /* #f7fd3493;*/
 }
 
 .card-header{
