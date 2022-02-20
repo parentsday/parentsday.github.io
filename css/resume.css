@@ -13,17 +13,8 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 22rem;
   }
-}
-
-.schedule {
-  padding: 5rem;
-}
-
-.schedule img {
-  width: 100%;
 }
 
 h1,
