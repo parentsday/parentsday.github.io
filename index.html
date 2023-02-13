@@ -72,8 +72,10 @@
   </nav>
 
   <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+    <!-- To make life more confusing, this section requires the CSS-property display:flex which is here passed as a "parameter".
+      IMO it is not worth the effort to create new CSS to describe this section, just use this hacky approach.    
+    -->
+    <section class="section-header-container d-flex" id="opening-page">
       <div class="w-100">
         <h1 class="mb-0">Parents
           <span class="text-primary">Day</span>
@@ -96,7 +98,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="about">
+    <section class="section-header-container " id="about">
       <div class="w-100">
         <h2 class="mb-5">About</h2>
         <p>  <!-- Just delete this box once the website is more or less finalised for this years iteration-->        
@@ -116,7 +118,7 @@
     <hr class="m-0">
 
     <!-- Opening -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="opening">
+    <section class="section-header-container" id="opening">
       <div class="w-100 row">
         <div class="row col-md-12">
           <div class="col-md-10">
@@ -140,7 +142,7 @@
     <hr class="m-0">
 
     <!-- Lecture 1 -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lecture1">
+    <section class="section-header-container" id="lecture1">
       <div class="w-100 row">
         <div class="col-md-12">
           <h2 class="mb-5">Lecture on Societal Impact</h2>
@@ -165,7 +167,7 @@
     <hr class="m-0">
 
     <!-- Activity round 1 -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="ac1">
+    <section class="section-header-container" id="ac1">
       <div class="w-100 row">
         <div class="col-md-12">
           <h2 class="mb-5">Activities Round 1</h2>
@@ -306,7 +308,7 @@
     </section>
 
     <!-- Lecture 2 -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lecture2">
+    <section class="section-header-container" id="lecture2">
       <div class="w-100 row">
         <div class="col-md-12">
           <h2 class="mb-5">Lecture on General AI</h2>
@@ -330,7 +332,7 @@
 
     <hr class="m-0">
     <!-- Lunch -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lunch">
+    <section class="section-header-container" id="lunch">
       <div class="w-100 row">
         <div class="col-md-12">
           <h2 class="mb-5">Lunch</h2>
@@ -350,7 +352,7 @@
     <hr class="m-0">
 
     <!-- Activity Round 2 -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="ac2">
+    <section class="section-header-container" id="ac2">
       <div class="w-100 row">
         <div class="col-md-12">
           <h2 class="mb-5">Activities Round 2</h2>
@@ -441,7 +443,7 @@
     </section>
 
     <!-- Lecture 3 -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lecture3">
+    <section class="section-header-container" id="lecture3">
       <div class="w-100 row">
         <div class="col-md-12">
           <h2 class="mb-5">Lecture on the perception of AI</h2>
@@ -463,7 +465,7 @@
     </section>
 
     <!-- Closing -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="closing">
+    <section class="section-header-container" id="closing">
       <div class="w-100 row">   
         <div class="row col-md-12">
           <div class="col-md-9">
@@ -486,15 +488,14 @@
       </div>
     </section>
 
-    <!-- Borrel -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="borrel">
+    <section class="section-header-container" id="borrel">
       <div class="w-100 row">
         <div class="row col-md-12">
           <div class="col-md-9">
             <h2 class="mb-5">Borrel</h2>
           </div>
           <div class="col-md-2">
-            <h2 class="mb-5 room">URD</h2>
+            <h2 class="room">URD</h2>
           </div>
         </div>
 
