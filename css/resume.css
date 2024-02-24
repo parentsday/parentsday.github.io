@@ -196,7 +196,6 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-
 .gr p{
    min-height: 20vh;
   padding: 2vh;
@@ -205,13 +204,11 @@ a:hover, a:focus, a:active {
 }
 
 .gr1 {
-  background-color: rgba(4, 116, 4, 0.699);
+  background-color: rgba(98, 93, 228, 0.8);
 }
 
-
-
 .gr2 {
-  background-color:rgba(218, 203, 6, 0.678);
+  background-color:rgba(166, 4, 174, 0.9);
   /* #f7fd3493;*/
 }
 
@@ -244,6 +241,12 @@ h2.room {
 
 .refer {
   height: 150px;
+}
+
+.btn-primary {
+  background-color:rgba(11, 9, 139, 0.856);
+  color: rgb(255, 255, 255);
+  border: none;
 }
 
 /* .section-header-container>.row:first-child>.row:first-child{
