@@ -1,0 +1,47 @@
+import turtle
+t = turtle.Turtle()
+t.speed(5) # 1:slowest, 3:slow, 5:normal, 10:fast, 0:fastest
+
+# Outline and blue
+t.up()
+t.goto(-150, 0)
+t.down()
+t.fillcolor('blue')
+t.begin_fill()
+t.forward(300)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(300)
+t.right(90)
+t.forward(150)
+t.end_fill()
+t.up()
+
+# Vertical stripe
+t.right(90)
+t.forward(90)
+t.fillcolor('yellow')
+t.begin_fill()
+t.forward(20)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(20)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.end_fill()
+
+# Horizontal stripe
+t.goto(-150, -65)
+t.begin_fill()
+t.forward(300)
+t.right(90)
+t.forward(20)
+t.right(90)
+t.forward(300)
+t.right(90)
+t.forward(20)
+t.right(90)
+t.end_fill()
