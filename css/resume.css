@@ -204,11 +204,11 @@ a:hover, a:focus, a:active {
 }
 
 .gr1 {
-  background-color: rgba(98, 93, 228, 0.8);
+  background-color: rgba(123, 119, 231, 0.8);
 }
 
 .gr2 {
-  background-color:rgb(210, 104, 255);
+  background-color:rgba(252, 50, 50, 0.8);
   /* #f7fd3493;*/
 }
 
